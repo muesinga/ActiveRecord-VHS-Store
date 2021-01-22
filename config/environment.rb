@@ -11,3 +11,6 @@ ActiveRecord::Base.establish_connection(
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 require_all 'app'
+
+
+# THIS IS A TEST OF THE BRANCH SYSTEM. HELLO, WE HAVE BEEN TRYING TO REACH YOU ABOUT YOUR CARS EXTENDED WARRENTEE
