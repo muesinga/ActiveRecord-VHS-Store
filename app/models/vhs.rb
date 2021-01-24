@@ -31,4 +31,8 @@ class Vhs < ActiveRecord::Base
         return self.movie.title.gsub(/s/, "").upcase + "-" unless long_title?
         self.movie.title[0..3].gsub(/s/, "").upcase + "-"
     end
+
+    def self.all_genres
+        movie = Movie.all
+    end
 end

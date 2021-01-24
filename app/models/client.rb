@@ -18,5 +18,10 @@ class Client < ActiveRecord::Base
         self.rentals.update_all(current: false)
     end
 
+    def last_return
+      self.rentals.update_all(current: false)
+      self.destroy
+    end
+
 end
 
