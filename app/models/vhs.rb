@@ -32,7 +32,18 @@ class Vhs < ActiveRecord::Base
         self.movie.title[0..3].gsub(/s/, "").upcase + "-"
     end
 
-    def self.all_genres
-        movie = Movie.all
+    def self.all_movies
+        self.all.map{|vhs| vhs.movie}.to_set
     end
+
+    def self.all_genres
+        movies = self.all_movies
+        movies.map{|movie| movie.genres}.flatten.to_set
+    end
+
+    def self.available_now
+        self.select{|vhs| vhs.rentals.empty?}
+    end
+    
+
 end

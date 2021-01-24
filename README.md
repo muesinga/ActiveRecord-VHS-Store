@@ -70,7 +70,7 @@ end
 
 **NOTE**: all deliverables will make you a strong dev and will allow you for a good practice on ActiveRecord. Please spend some time on this lab, together with your partner or on your own. This lab can also be developed into a CLI that can serve as a strong portfolio piece or blog post material. Check out Danny Sasse's blog post on how his pairing partner and he [implemented DRY solution](https://dsasse07.medium.com/abstracting-refactoring-in-ruby-with-send-97e6ef1a4661).
 
-**SECOND NOTE**: Please know that there is the [basic solution]() authored by me and a [solution that involves moduls](https://github.com/sylwiavargas/ActiveRecord-VHS-Store/tree/alternative-solution-with-modules) authored by [Danny Sasse](https://github.com/dsasse07) and [Simon Jacobs](https://github.com/simonjacobs212). Feel free to check them once you're done or if you're stuck -- they are there for you to learn from!
+**SECOND NOTE**: Please know that there is the [basic solution]() authored by me and a [solution that involves moduls](https://github.com/sylwiavargas/ActiveRecord-VHS-Store/tree/alternative-solution-with-modules) authored by [Danny Sasse](https://github.com/dsas\se07) and [Simon Jacobs](https://github.com/simonjacobs212). Feel free to check them once you're done or if you're stuck -- they are there for you to learn from!
 
 --- 
 
